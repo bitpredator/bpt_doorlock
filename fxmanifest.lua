@@ -9,7 +9,7 @@ name 'bpt_doorlock'
 version '1.0.0'
 license 'MIT'
 author 'bitpredator'
-repository ''
+repository 'https://github.com/bitpredator/bpt_doorlock'
 
 -- Manifest
 shared_script {
