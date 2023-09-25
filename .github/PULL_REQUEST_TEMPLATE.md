@@ -1,13 +1,5 @@
 <!-- ⚠⚠ Do not delete this pull request template! ⚠⚠ -->
 <!-- Pull requests that do not follow this template are likely to be ignored. -->
----
-name: PULL REQUEST TEMPLATE
-about: Create Pull Request
-title: "Pull Request Name"
-labels:
-assignees:
-  - bitpredator
----
 
 Fixes #[issue_no]
 ### All Submissions:
