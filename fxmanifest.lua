@@ -6,7 +6,7 @@ game 'gta5'
 
 -- Resource Information
 name 'bpt_doorlock'
-version '1.0.0'
+version '1.0.1'
 license 'MIT'
 author 'bitpredator'
 repository 'https://github.com/bitpredator/bpt_doorlock'
