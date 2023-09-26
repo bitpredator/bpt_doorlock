@@ -22,7 +22,7 @@
     "react-router-dom": "^6.3.0",
     "rimraf": "^3.0.2",
     "typescript": "^4.5.5",
-    "vite": "^2.9.16",
+    "vite": "^4.4.9",
     "zustand": "^3.7.2"
   }
 }
