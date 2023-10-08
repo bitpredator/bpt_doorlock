@@ -1,4 +1,4 @@
-<h1 align='center'>bpt_ddorlock</a></h1>
+<h1 align='center'>bpt_dorlock</a></h1>
 <p align='center'><a href='https://discord.gg/ksGfNvDEfq'>Discord</a>
 
 Port management resource, currently only compatible with es_extended & qb-core.
