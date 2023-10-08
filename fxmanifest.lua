@@ -6,7 +6,7 @@ game 'gta5'
 
 -- Resource Information
 name 'bpt_doorlock'
-version '1.0.1'
+version '1.0.2'
 license 'MIT'
 author 'bitpredator'
 repository 'https://github.com/bitpredator/bpt_doorlock'
@@ -34,7 +34,7 @@ ui_page 'web/build/index.html'
 files {
     'web/build/index.html',
     'web/build/**/*',
-    'loacales/*.json',
+    'locales/*.json',
     'audio/data/bptdoorlock_sounds.dat54.rel',
     'audio/dlc_bptdoorlock/bptdoorlock.awc',
 }
