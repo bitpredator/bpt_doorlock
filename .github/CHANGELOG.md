@@ -8,3 +8,4 @@
 2. [package-lock.json + package.json]: build(deps): bump react, react-dom and @types/react @bitpredator
 3. [pnpm-lock.yaml]: build(deps): bump @babel/traverse from 7.17.3 to 7.23.2 in /web @bitpredator
 4. [package-lock.json + package.json]: build(deps): bump @babel/core from 7.22.20 to 7.23.2 @bitpredator
+5. [package-lock.json + package.json]: build(deps): bump @tanstack/react-table from 8.5.11 to 8.10.7 @bitpredator
