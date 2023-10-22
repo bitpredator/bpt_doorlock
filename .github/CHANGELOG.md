@@ -14,3 +14,4 @@
 7. [package-lock.json + package.json]: build(deps): bump vite from 2.9.16 to 4.5.0 @bitpredator
 8. [package-lock.json + package.json]: build(deps): bump @types/node from 16.11.18 to 20.8.7 @bitpredator
 9. [package-lock.json + package.json]: build(deps): bump @types/react-dom from 17.0.10 to 18.2.14 @bitpredator
+10. [package-lock.json + package.json]: build(deps): bump @types/react from 18.2.30 to 18.2.31 @bitpredator
