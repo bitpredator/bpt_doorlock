@@ -13,3 +13,4 @@
 6. [package-lock.json + package.json]: build(deps): bump react-router-dom from 6.16.0 to 6.17.0 @bitpredator
 7. [package-lock.json + package.json]: build(deps): bump vite from 2.9.16 to 4.5.0 @bitpredator
 8. [package-lock.json + package.json]: build(deps): bump @types/node from 16.11.18 to 20.8.7 @bitpredator
+9. [package-lock.json + package.json]: build(deps): bump @types/react-dom from 17.0.10 to 18.2.14 @bitpredator
