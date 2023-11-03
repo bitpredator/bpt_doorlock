@@ -16,3 +16,4 @@
 9. [package-lock.json + package.json]: build(deps): bump @types/react-dom from 17.0.10 to 18.2.14 @bitpredator
 10. [package-lock.json + package.json]: build(deps): bump @types/react from 18.2.30 to 18.2.31 @bitpredator
 11. [package-lock.json + package.json]: build(deps): bump @types/node from 20.8.7 to 20.8.10 @bitpredator
+12. [package-lock.json + package.json]: build(deps): bump react-router-dom from 6.17.0 to 6.18.0 @bitpredator
