@@ -20,3 +20,4 @@
 13. [package-lock.json + package.json]: build(deps): bump @vitejs/plugin-react from 1.3.2 to 4.1.1 @bitpredator
 14. [package-lock.json + package.json]: build(deps): bump @types/react from 18.2.31 to 18.2.34 @bitpredator
 15. [package-lock.json + package.json]: build(deps): bump @babel/core from 7.23.2 to 7.23.3 @bitpredator
+16. [package-lock.json + package.json]: build(deps): bump @types/node from 20.8.10 to 20.9.0 @bitpredator
