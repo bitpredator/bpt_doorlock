@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@babel/core": "^7.23.2",
+    "@babel/core": "^7.23.3",
     "@babel/plugin-syntax-flow": "^7.22.5",
     "@babel/plugin-transform-react-jsx": "^7.14.9",
     "@emotion/react": "^11.11.1",
