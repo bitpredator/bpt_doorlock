@@ -22,3 +22,4 @@
 15. [package-lock.json + package.json]: build(deps): bump @babel/core from 7.23.2 to 7.23.3 @bitpredator
 16. [package-lock.json + package.json]: build(deps): bump @types/node from 20.8.10 to 20.9.0 @bitpredator
 17. [package-lock.json + package.json]: build(deps): bump @types/react-dom from 18.2.14 to 18.2.15 @bitpredator
+18. [package-lock.json + package.json]: build(deps): bump @types/react from 18.2.34 to 18.2.37 @bitpredator
