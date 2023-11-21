@@ -27,3 +27,4 @@
 20. [package-lock.json + package.json]: build(deps): bump typescript from 5.2.2 to 5.3.2 @bitpredator
 21. [package-lock.json + package.json]: build(deps): bump @babel/plugin-transform-react-jsx from 7.14.9 to 7.23.4 @bitpredator
 22. [package-lock.json + package.json]: build(deps): build(deps): bump react-router-dom from 6.18.0 to 6.19.0 @bitpredator
+23. [package-lock.json + package.json]: build(deps): bump @vitejs/plugin-react from 4.1.1 to 4.2.0 @bitpredator
