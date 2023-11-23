@@ -29,3 +29,4 @@
 22. [package-lock.json + package.json]: build(deps): build(deps): bump react-router-dom from 6.18.0 to 6.19.0 @bitpredator
 23. [package-lock.json + package.json]: build(deps): bump @vitejs/plugin-react from 4.1.1 to 4.2.0 @bitpredator
 24. [package-lock.json + package.json]: build(deps): bump prettier from 3.0.3 to 3.1.0 @bitpredator
+25. [package-lock.json + package.json]: build(deps): bump @babel/plugin-syntax-flow from 7.22.5 to 7.23.3 @bitpredator
