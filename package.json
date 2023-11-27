@@ -11,7 +11,7 @@
     "@mantine/modals": "^5.1.6",
     "@tanstack/react-table": "^8.10.7",
     "@types/node": "^20.10.0",
-    "@types/react": "^18.2.38",
+    "@types/react": "^18.2.39",
     "@types/react-dom": "^18.2.17",
     "@vitejs/plugin-react": "^4.2.0",
     "cross-env": "^7.0.3",
