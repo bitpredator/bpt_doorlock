@@ -10,7 +10,7 @@
     "@mantine/hooks": "^5.1.6",
     "@mantine/modals": "^5.1.6",
     "@tanstack/react-table": "^8.10.7",
-    "@types/node": "^20.10.0",
+    "@types/node": "^20.10.5",
     "@types/react": "^18.2.38",
     "@types/react-dom": "^18.2.17",
     "@vitejs/plugin-react": "^4.2.0",
