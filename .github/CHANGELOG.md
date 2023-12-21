@@ -39,3 +39,4 @@
 32. [package-lock.json + package.json]: build(deps): bump @types/node from 20.10.0 to 20.10.5 @bitpredator
 33. [package-lock.json + package.json]: build(deps): bump @tanstack/react-table from 8.10.7 to 8.11.2 @bitpredator
 34. [package-lock.json + package.json]: build(deps): bump @vitejs/plugin-react from 4.2.0 to 4.2.1 @bitpredator
+35. [package-lock.json + package.json]: build(deps): bump @types/react-dom from 18.2.17 to 18.2.18 @bitpredator
