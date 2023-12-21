@@ -23,6 +23,6 @@
     "rimraf": "^3.0.2",
     "typescript": "^5.3.2",
     "vite": "^5.0.10",
-    "zustand": "^3.7.2"
+    "zustand": "^4.4.7"
   }
 }
