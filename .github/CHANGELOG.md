@@ -43,3 +43,4 @@
 36. [package-lock.json + package.json]: build(deps): bump vite from 5.0.2 to 5.0.10 @bitpredator
 37. [package-lock.json + package.json]: build(deps): bump react-router-dom from 6.20.0 to 6.21.1 @bitpredator
 38. [package-lock.json + package.json]: build(deps): bump typescript from 5.3.2 to 5.3.3 @bitpredator
+39. [package-lock.json + package.json]: build(deps): bump prettier from 3.1.0 to 3.1.1 @bitpredator
