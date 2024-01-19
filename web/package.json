@@ -26,7 +26,7 @@
       "react-icons": "^4.4.0",
       "react-router-dom": "^6.3.0",
       "typescript": "^4.5.5",
-      "vite": "^2.9.16",
+      "vite": "^2.9.17",
       "zustand": "^3.7.2"
     },
     "devDependencies": {
