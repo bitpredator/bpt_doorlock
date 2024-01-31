@@ -49,3 +49,4 @@
 42. [package-lock.json + package.json]: build(deps): bump @types/react from 18.2.45 to 18.2.46 @bitpredator
 43. [package-lock.json + package.json]: build(deps): bump @types/react from 18.2.46 to 18.2.48 @bitpredator
 44. [package-lock.json + package.json]: build(deps): bump prettier from 3.1.1 to 3.2.4 @bitpredator
+45. [package-lock.json + package.json]: build(deps): bump react-router-dom from 6.21.1 to 6.21.3 @bitpredator
