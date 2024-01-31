@@ -47,3 +47,4 @@
 40. [package-lock.json + package.json]: build(deps): bump @types/react from 18.2.38 to 18.2.45 @bitpredator
 41. [package-lock.json + package.json]: build(deps): bump @emotion/react from 11.11.1 to 11.11.3 @bitpredator
 42. [package-lock.json + package.json]: build(deps): bump @types/react from 18.2.45 to 18.2.46 @bitpredator
+43. [package-lock.json + package.json]: build(deps): bump @types/react from 18.2.46 to 18.2.48 @bitpredator
