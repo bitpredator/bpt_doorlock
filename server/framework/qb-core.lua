@@ -1,17 +1,21 @@
-local resourceName = 'qb-core'
+local resourceName = "qb-core"
 
-if not GetResourceState(resourceName):find('start') then return end
+if not GetResourceState(resourceName):find("start") then
+	return
+end
 
 SetTimeout(0, function()
-    local QB = exports[resourceName]:GetCoreObject()
+	local QB = exports[resourceName]:GetCoreObject()
 
-    GetPlayer = QB.Functions.GetPlayer
+	GetPlayer = QB.Functions.GetPlayer
 
-	if GetResourceState('ox_inventory') == 'missing' then
+	if GetResourceState("ox_inventory") == "missing" then
 		function RemoveItem(playerId, item, slot)
-            local player = GetPlayer(playerId)
+			local player = GetPlayer(playerId)
 
-            if player then player.Functions.RemoveItem(item, 1, slot) end
+			if player then
+				player.Functions.RemoveItem(item, 1, slot)
+			end
 		end
 
 		---@param player table
@@ -21,7 +25,7 @@ SetTimeout(0, function()
 		function DoesPlayerHaveItem(player, items, removeItem)
 			for i = 1, #items do
 				local item = items[i]
-                local itemName = item.name or item
+				local itemName = item.name or item
 
 				if item.metadata then
 					local playerItems = player.Functions.GetItemsByName(itemName)
@@ -50,19 +54,19 @@ SetTimeout(0, function()
 				end
 			end
 		end
-    end
+	end
 end)
 
 function GetCharacterId(player)
 	return player.PlayerData.citizenid
 end
 
-local groups = { 'job', 'gang' }
+local groups = { "job", "gang" }
 
 function IsPlayerInGroup(player, filter)
 	local type = type(filter)
 
-	if type == 'string' then
+	if type == "string" then
 		for i = 1, #groups do
 			local data = player.PlayerData[groups[i]]
 
@@ -73,7 +77,7 @@ function IsPlayerInGroup(player, filter)
 	else
 		local tabletype = table.type(filter)
 
-		if tabletype == 'hash' then
+		if tabletype == "hash" then
 			for i = 1, #groups do
 				local data = player.PlayerData[groups[i]]
 				local grade = filter[data.name]
@@ -82,7 +86,7 @@ function IsPlayerInGroup(player, filter)
 					return data.name, data.grade.level
 				end
 			end
-		elseif tabletype == 'array' then
+		elseif tabletype == "array" then
 			for i = 1, #filter do
 				local group = filter[i]
 
