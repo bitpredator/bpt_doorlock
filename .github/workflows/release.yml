@@ -54,7 +54,7 @@ jobs:
           TGT_RELEASE_VERSION: ${{ github.ref_name }}
 
       - name: Push manifest change
-        uses: EndBug/add-and-commit@v8
+        uses: EndBug/add-and-commit@v9
         with:
           add: fxmanifest.lua
           push: true
