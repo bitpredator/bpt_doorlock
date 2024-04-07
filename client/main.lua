@@ -1,8 +1,13 @@
-if not LoadResourceFile(cache.resource, 'web/build/index.html') then
+local doors, NuiHasLoaded, source = {}, {}, {}
+
+if not LoadResourceFile(lib.name, 'web/build/index.html') then
 	error('Unable to load UI. Build bpt_doorlock or download the latest release.\n	^3https://github.com/bitpredator/bpt_doorlock/releases/latest/download/bpt_doorlock.zip^0')
 end
 
-if not lib.checkDependency('ox_lib', '3.14.0', true) then return end
+do
+	local success, msg = lib.checkDependency('ox_lib', '3.0.0')
+	if not success then error(msg) end
+end
 
 lib.locale()
 
@@ -112,7 +117,7 @@ lib.callback('bpt_doorlock:getDoors', false, function(data)
 	end
 end)
 
-RegisterNetEvent('bpt_doorlock:setState', function(id, state, source, data)
+RegisterNetEvent('bpt_doorlock:setState', function(id, state, _, data)
 	if not doors then return end
 
 	if data then
@@ -166,13 +171,13 @@ RegisterNetEvent('bpt_doorlock:setState', function(id, state, source, data)
 
 	if door.state == state and door.distance and door.distance < 20 then
 		if Config.NativeAudio then
-			RequestScriptAudioBank('dlc_oxdoorlock/oxdoorlock', false)
+			RequestScriptAudioBank('dlc_bptdoorlock/bptdoorlock', false)
 			local sound = state == 0 and door.unlockSound or door.lockSound or 'door_bolt'
 			local soundId = GetSoundId()
 
-			PlaySoundFromCoord(soundId, sound, door.coords.x, door.coords.y, door.coords.z, 'DLC_OXDOORLOCK_SET', false, 0, false)
+			PlaySoundFromCoord(soundId, sound, door.coords.x, door.coords.y, door.coords.z, 'DLC_BPTDOORLOCK_SET', false, 0, false)
 			ReleaseSoundId(soundId)
-			ReleaseNamedScriptAudioBank('dlc_oxdoorlock/oxdoorlock')
+			ReleaseNamedScriptAudioBank('dlc_bptdoorlock/bptdoorlock')
 		else
 			local volume = (0.01 * GetProfileSetting(300)) / (door.distance / 2)
 			if volume > 1 then volume = 1 end
