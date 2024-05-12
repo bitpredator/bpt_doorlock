@@ -54,8 +54,8 @@ dependencies:
     specifier: ^4.5.5
     version: 4.6.3
   vite:
-    specifier: ^2.9.16
-    version: 2.9.16
+    specifier: ^2.9.18
+    version: 2.9.18
   zustand:
     specifier: ^3.7.2
     version: 3.7.2(react@17.0.2)
@@ -1929,8 +1929,8 @@ packages:
       use-isomorphic-layout-effect: 1.1.2(@types/react@17.0.43)(react@17.0.2)
     dev: false
 
-  /vite@2.9.16:
-    resolution: {integrity: sha512-X+6q8KPyeuBvTQV8AVSnKDvXoBMnTx8zxh54sOwmmuOdxkjMmEJXH2UEchA+vTMps1xw9vL64uwJOWryULg7nA==}
+  /vite@2.9.18:
+    resolution: {integrity: sha512-sAOqI5wNM9QvSEE70W3UGMdT8cyEn0+PmJMTFvTB8wB0YbYUWw3gUbY62AOyrXosGieF2htmeLATvNxpv/zNyQ==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
