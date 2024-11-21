@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-global, undefined-field
 local doors, NuiHasLoaded, source = {}, {}, {}
 
 if not LoadResourceFile(lib.name, 'web/build/index.html') then
